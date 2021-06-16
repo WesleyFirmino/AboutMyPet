@@ -25,7 +25,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:textAlignment="textEnd">
 
         <TextView
             android:id="@+id/about_my_pet"
@@ -33,6 +34,7 @@
             android:layout_margin="@dimen/default_margin"
             android:fontFamily="@font/lato"
             android:padding="@dimen/small_padding"
+            android:justificationMode="inter_word"
             android:text="@string/about_my_pet" />
 
     </ScrollView>
